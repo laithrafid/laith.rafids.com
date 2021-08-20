@@ -1,0 +1,13 @@
+version: '2'
+services:
+  proxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nginx-custom
+    ports:
+      - '80:80'
+  web:
+    image: httpd
+    volumes:
+      - ./laith-resume/:/usr/local/apache2/htdocs/

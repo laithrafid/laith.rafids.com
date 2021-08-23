@@ -1,8 +1,4 @@
-/*!
-  * Bootstrap v4.0.0 (https://getbootstrap.com)
-  * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-  */
+
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery')) :
 	typeof define === 'function' && define.amd ? define(['exports', 'jquery'], factory) :
@@ -232,7 +228,7 @@ var Alert = function ($$$1) {
   };
 
   var Alert =
-  /*#__PURE__*/
+ 
   function () {
     function Alert(element) {
       this._element = element;
@@ -406,7 +402,7 @@ var Button = function ($$$1) {
   };
 
   var Button =
-  /*#__PURE__*/
+ 
   function () {
     function Button(element) {
       this._element = element;
@@ -609,7 +605,7 @@ var Carousel = function ($$$1) {
   };
 
   var Carousel =
-  /*#__PURE__*/
+ 
   function () {
     function Carousel(element, config) {
       this._items = null;
@@ -1082,7 +1078,7 @@ var Collapse = function ($$$1) {
   };
 
   var Collapse =
-  /*#__PURE__*/
+ 
   function () {
     function Collapse(element, config) {
       this._isTransitioning = false;
@@ -1665,15 +1661,7 @@ function getScroll(element) {
   return element[upperSide];
 }
 
-/*
- * Sum or subtract the element scroll values (left and top) from a given rect object
- * @method
- * @memberof Popper.Utils
- * @param {Object} rect - Rect object you want to change
- * @param {HTMLElement} element - The element from the function reads the scroll values
- * @param {Boolean} subtract - set to true if you want to subtract the scroll values
- * @return {Object} rect - The modifier rect object
- */
+
 function includeScroll(rect, element) {
   var subtract = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
 
@@ -1687,15 +1675,7 @@ function includeScroll(rect, element) {
   return rect;
 }
 
-/*
- * Helper to detect borders of a given element
- * @method
- * @memberof Popper.Utils
- * @param {CSSStyleDeclaration} styles
- * Result of `getStyleComputedProperty` on the given element
- * @param {String} axis - `x` or `y`
- * @return {number} borders - The borders size of the given axis
- */
+
 
 function getBordersSize(styles, axis) {
   var sideA = axis === 'x' ? 'Left' : 'Top';
@@ -3916,7 +3896,7 @@ var Dropdown = function ($$$1) {
   };
 
   var Dropdown =
-  /*#__PURE__*/
+ 
   function () {
     function Dropdown(element, config) {
       this._element = element;
@@ -4365,7 +4345,7 @@ var Modal = function ($$$1) {
   };
 
   var Modal =
-  /*#__PURE__*/
+ 
   function () {
     function Modal(element, config) {
       this._config = this._getConfig(config);
@@ -4965,7 +4945,7 @@ var Tooltip = function ($$$1) {
   };
 
   var Tooltip =
-  /*#__PURE__*/
+ 
   function () {
     function Tooltip(element, config) {
       /**
@@ -5592,7 +5572,7 @@ var Popover = function ($$$1) {
   };
 
   var Popover =
-  /*#__PURE__*/
+ 
   function (_Tooltip) {
     _inheritsLoose(Popover, _Tooltip);
 
@@ -5790,7 +5770,7 @@ var ScrollSpy = function ($$$1) {
   };
 
   var ScrollSpy =
-  /*#__PURE__*/
+ 
   function () {
     function ScrollSpy(element, config) {
       var _this = this;
@@ -6090,7 +6070,7 @@ var Tab = function ($$$1) {
   };
 
   var Tab =
-  /*#__PURE__*/
+ 
   function () {
     function Tab(element) {
       this._element = element;

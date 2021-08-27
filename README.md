@@ -1,4 +1,4 @@
-# [this's a test for deploying using gitlab autodeploy with google cloud , AWS and Openshift and done by laith rafid ](https://www.linkedin.com/in/laithrafid/)
+# Profile Resume 
 
 
 
